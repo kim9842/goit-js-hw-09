@@ -4,8 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 3</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/form-styles.css" />
   </head>
-  <body></body>
+  <body>
+    <button type="button" class="btn-main">
+      <a href="./index.html">Back</a>
+    </button>
+
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      <button type="submit" class="js-button">Submit</button>
+    </form>
+
+    <script type="module" src="./js/1-gallery.js"></script>
+  </body>
 </html>

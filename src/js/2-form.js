@@ -38,8 +38,6 @@ form.addEventListener('submit', e => {
     return;
   }
 
-  console.log('Form submitted:', formData);
-
   localStorage.removeItem(dataFromLS);
   form.reset();
   formData.email = '';

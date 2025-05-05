@@ -67,7 +67,7 @@ const images = [
   },
 ];
 const listItems = document.querySelector('.gallery');
-
+console.log(listItems);
 const makeElements = images => {
   return images
     .map(image => {

@@ -17,7 +17,7 @@ if (savedData) {
     emailInput.value = formData.email;
     messageTextarea.value = formData.message;
   } catch (err) {
-    console.error('Ошибка чтения из localStorage:', err);
+    console.log(err);
   }
 }
 

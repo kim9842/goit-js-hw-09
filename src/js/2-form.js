@@ -37,6 +37,7 @@ form.addEventListener('submit', e => {
     alert('Please fill in both fields');
     return;
   }
+  console.log(formData);
 
   localStorage.removeItem(dataFromLS);
   form.reset();

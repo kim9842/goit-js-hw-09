@@ -86,4 +86,5 @@ listItems.innerHTML = makeElements(images);
 let gallery = new SimpleLightbox('.gallery li a', {
   captions: true,
   captionsData: 'alt',
+  captionDelay: 250,
 });
